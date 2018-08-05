@@ -41,7 +41,33 @@ a.text-primary:hover {
     background-color: #4aaaa5;
   }
 
+.btn-primary {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
 
+.btn-primary:hover {
+    background-color: #3b8683;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem #57b6b1;
+}
+  
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+color: #fff;
+background-color: #337471;
+border-color: #005cbf;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+box-shadow: 0 0 0 0.2rem #337571;
+}
+
+/* Sticky footer */
 .footer {
     position: absolute;
     bottom: 0;
@@ -59,7 +85,7 @@ a.text-primary:hover {
 
 
 
-
+/* Responsive behavior  */
 
 @media screen and (max-width: 768px) {
 
