@@ -1,25 +1,60 @@
+
+html {
+    /* for sticky footer */
+    position: relative;
+    min-height: 100%;
+}
+
 body {
+    /* bg image for all pages */
     background-image: url(../images/sun-bg.png);
+    /* For sticky footer */
+    margin-bottom: 80px;
+
 }
 
 
-/* a.text-primary {
-    color: #4aaaa5; !important;
+
+
+/* Changing primary color scheme to teal */
+
+h1.text-primary {
+    color: #4aaaa5!important;
+}
+
+h1.bg-primary {
+    background-color: #4aaaa5!important;
+}
+
+a.text-primary {
+    color: #4aaaa5!important;
     text-decoration: none;
-}
+} 
 
 a.text-primary:visited {
-    color: #4aaaa5;
+    color: #4aaaa5!important;
     text-decoration: none;
-}
+} 
 
 a.text-primary:hover {
-    color: white;
+    color: white!important;
     background-color: #4aaaa5;
   }
 
 
- */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    line-height: 60px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 20px;
+
+}
 
 
 
@@ -34,5 +69,13 @@ a.text-primary:hover {
     .container {
         width: 100%;
     }
+
+    #main-body {
+        border: none!important;
+    }
     
+    #about-img {
+        max-width: 450px;
+        
+    }
 }
