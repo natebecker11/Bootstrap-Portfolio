@@ -61,23 +61,31 @@ a.text-primary:hover {
 
 
 
-
-
-
-
 @media screen and (max-width: 768px) {
+
+
     .container {
-        width: 100%;
+        width: 100%!important;
     }
 
     #main-body {
         border: none!important;
     }
     
+    
+
     #about-img {
         width: 100%;
         border-right: 1px solid white;
+
+               
         
-        
+    }
+
+    #nav-wrap {
+        width: 100%!important;
+    }
+    #nav-brand {
+        width: 100%!important;
     }
 }
