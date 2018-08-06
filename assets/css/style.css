@@ -88,26 +88,16 @@ box-shadow: 0 0 0 0.2rem #337571;
 /* Responsive behavior  */
 
 @media screen and (max-width: 768px) {
-
-
     .container {
         width: 100%!important;
     }
-
     #main-body {
         border: none!important;
     }
-    
-    
-
     #about-img {
         width: 100%;
-        border-right: 1px solid white;
-
-               
-        
+        border-right: 1px solid white;              
     }
-
     #nav-wrap {
         width: 100%!important;
     }
